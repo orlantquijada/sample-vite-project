@@ -17,6 +17,10 @@ function App() {
         </a>
       </div>
       <h1 className='text-blue-500 text-3xl'>Vite + React</h1>
+      <button onClick={() => console.log('hello!!!')} className='h-10 rounded-lg border border-neutral-400 px-4 py-2 items-center justify-center flex active:scale-95 scale-100 transition-all'>
+        Click Me
+        </button>
+
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)} className='h-10 rounded-lg border border-neutral-400 px-4 py-2 items-center justify-center flex'>
           count is {count}
